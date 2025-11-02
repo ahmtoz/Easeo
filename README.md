@@ -1,6 +1,6 @@
 # AccEase
 
-# 🌐 Project Name: [Your Project Title Here]
+# 🌐 Project Name: AccEase
 
 ## 📖 Overview
 This project aims to design and develop an interactive **website** along with a **browser extension** that enhances user engagement and accessibility.  
@@ -74,7 +74,7 @@ project-root/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/yourprojectname.git
-````
+``
 
 2. **Navigate to the project directory**
 
