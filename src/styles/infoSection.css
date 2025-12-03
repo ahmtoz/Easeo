@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.info-header h2 {
+    font-size: 2.25rem;
+    color: #333;
+}
+
+.info-header p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.info-items-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+}
