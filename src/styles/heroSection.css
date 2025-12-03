@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 4rem;
+    margin-block: 2rem;
+    gap: 2rem;
+}
+
+.hero-information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;   
+}
+
+.hero-information h1 {
+    font-size: 3.5rem;
+    color: #333;
+}
+
+.hero-information h4 {
+    font-size: 1rem;
+    color: #7c3aed;
+}
+
+.hero-information p {
+    font-size: .875rem;
+    color: #333;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.get-started, .video {
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.get-started {
+    background-color: #7c3aed;
+    color: #fff;
+}
+
+.hero-image {
+    width: 60%;
+    height: auto    ;
+}
