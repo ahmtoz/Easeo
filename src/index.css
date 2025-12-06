@@ -1,17 +1,76 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+/* ---------------------------------------------------------
+   MODERN CSS RESET + NORMALIZE
+   --------------------------------------------------------- */
+
+/* 1. Tüm elementlerde box-sizing ve sıfırlama */
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* 2. HTML varsayılan ayarları */
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* 3. Body sıfırlama */
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
-main {
-  min-height: 100vh;
-  min-width: 100vw;
+/* 4. Resimler, videolar ve medya */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Form elementleri normalize */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 6. Listeler sıfırlansın (ul, ol) */
+ul, ol {
+  list-style: none;
+}
+
+/* 7. Anchor (a) normalize */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 8. Button normalize */
+button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+/* 9. Table reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 10. Default heading reset (margin zaten 0 ama font-weight normalize edilir) */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+/* 11. Smooth scroll (opsiyonel ama önerilen) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 12. Root varsayılan font ayarları */
+:root {
+  --font-base: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
