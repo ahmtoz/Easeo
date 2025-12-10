@@ -11,6 +11,10 @@ footer {
     align-items: flex-start;
 }
 
+.mobile-wrapper {
+    display: contents;
+}
+
 .footer-container ul li {
     list-style-type: circle;
 }
@@ -20,4 +24,26 @@ footer {
     margin-top: 2rem;
     font-size: 0.875rem;
     color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 2rem 1.5rem 1rem 1.5rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .mobile-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .footer-container .links {
+        width: 50%;
+    }
 }
