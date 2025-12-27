@@ -2,7 +2,29 @@
   "manifest_version": 3,
   "name": "AccEase",
   "version": "1.0.0",
+  "description": "Accessibility extension for color blindness support",
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "styles/protanopia.css",
+        "styles/tritanopia.css",
+        "styles/deuteranopia.css"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
