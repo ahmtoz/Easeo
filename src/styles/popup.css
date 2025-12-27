@@ -57,6 +57,12 @@ h3 {
     font-weight: 500;
 }
 
+.popup-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
 button {
     background-color: #4CAF50;
     color: white;
