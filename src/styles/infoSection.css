@@ -14,12 +14,17 @@
 }
 
 .info-header h2 {
+    font-style: Bold;
+    line-height: 100%;
+    letter-spacing: 0%;
     font-size: 3.75rem;
     font-weight: 700;
     color: #333;
 }
 
 .info-header p {
+    font-style: Medium;
+    letter-spacing: 9.6%;
     font-size: 1.25rem;
     line-height: 30px;
     font-weight: 500;
@@ -36,7 +41,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    max-width: 330px;
 }
 
 .info-item img {
@@ -45,6 +51,8 @@
 }
 
 .info-item p {
+    font-style: Medium;
+    letter-spacing: 9.6%;
     font-size: 1.25rem;
     line-height: 30px;
     font-weight: 500;
