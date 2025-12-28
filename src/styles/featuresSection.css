@@ -6,12 +6,15 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
-    margin-inline: 10rem; 
+    gap: 5.5rem;
 }
 
 .features-container h2 {
-    font-size: 2.75rem;
+    font-weight: 600;
+    font-style: Semi Bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 3.75rem;
     text-align: center;
     color: #333;
 }
@@ -25,10 +28,10 @@ section {
     display: flex;
     flex-direction: column;
     gap: .75rem;
-    min-width: 10rem;
-    max-width: 15rem;
-    padding: 1rem;
-    border: 1px solid black;
+    min-width: 12rem;
+    max-width: 19rem;
+    padding: 1.25rem;
+    background-color: #fff;
 }
 
 .features-items-container img {
@@ -37,24 +40,30 @@ section {
 }
 
 .features-items-container h5 {
-    font-size: 1rem;
-    color: #7c3aed;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 30px;
+    letter-spacing: 9.6%;
+    font-size: 1.25rem;
+    color: #000000;
 }
 
 .features-items-container p {
-    font-size: 0.875rem;
-    color: #333;
+    font-weight: 500;
+    font-style: Medium;
+    line-height: 30px;
+    letter-spacing: 9.6%;
+    font-size: 1.25rem;
+    color: #000000;
 }
 
 .features-items-container button {
     padding-inline: .75rem;
     padding-block: .5rem;
-    width: fit-content;
-    border: none;
+    border: 1px solid black;
     border-radius: .5rem;
-    background-color: #7c3aed;
-    color: #fff;
-    align-self: flex-end;
+    background-color: #FFDD50;
+    color: #333;
 }
 
 @media screen and (max-width: 768px){
