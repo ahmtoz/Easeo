@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../src/styles/popup.css';
+import '../styles/popup.css';
 
 /* eslint-disable no-undef */
 function Popup() {

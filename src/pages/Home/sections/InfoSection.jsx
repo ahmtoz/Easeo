@@ -1,4 +1,4 @@
-import '../../../styles/InfoSection.css';
+import '../../../styles/infoSection.css';
 import InfoElement from '../../../components/UI/InfoElement.jsx';
 import Info1 from '../../../assets/images/info1.png';
 import Info2 from '../../../assets/images/info2.png';

@@ -1,4 +1,4 @@
-import '../../../styles/HeroSection.css';
+import '../../../styles/heroSection.css';
 import heroImage from '../../../assets/images/hero-image.svg';
 function HeroSection() {
     return(
