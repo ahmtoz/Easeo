@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Easeo",
+  "version": "1.0.0",
+  "description": "Accessibility extension for color blindness support",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "styles/protanopia.css",
+        "styles/tritanopia.css",
+        "styles/deuteranopia.css",
+        "styles/achromatopsia.css"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
