@@ -66,7 +66,7 @@ section {
 .features-items-container > div:nth-child(2)::before {
     content: "";
     position: absolute;
-    background-image: url('../assets/images/featvector1.png');
+    background-image: url('../../../assets/images/featvector1.png');
     width: 125px;
     height: 117px;
     border-radius: 50%;
@@ -90,7 +90,7 @@ section {
 .features-items-container > div:nth-child(3)::before {
     content: "";
     position: absolute;
-    background-image: url('../assets/images/featvector2.png');
+    background-image: url('../../../assets/images/featvector2.png');
     width: 58px;
     height: 65px;
     border-radius: 50%;
