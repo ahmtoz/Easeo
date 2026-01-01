@@ -1,0 +1,75 @@
+.hero-section {
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.about-container  {
+    width: 100vw;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 100px);
+    gap: 2px;
+    background-color: #00000033;
+    border-top: 1px solid #00000033;
+}
+
+.about-container > div {
+    background-color: #fafafa;
+}
+
+.about-container::after {
+    content: "";
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    top: -90%;
+    right: -35%;
+
+    background: radial-gradient(
+    circle,
+    rgba(151, 71, 255, 0.45) 0%,
+    rgba(151, 71, 255, 0.25) 25%,
+    rgba(151, 71, 255, 0.1) 45%,
+    transparent 70%
+    );
+
+    filter: blur(120px);
+}
+
+.about-container::before {
+    content: "";
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    bottom: -110%;
+    left: -35%;
+
+    background: radial-gradient(
+    circle,
+    rgba(151, 71, 255, 0.45) 0%,
+    rgba(151, 71, 255, 0.25) 25%,
+    rgba(151, 71, 255, 0.1) 45%,
+    transparent 70%
+    );
+
+    filter: blur(120px);
+}
+
+.about-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 3;
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 68px;
+    line-height: 96px;
+    letter-spacing: 2.64%;
+}
