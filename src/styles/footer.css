@@ -18,7 +18,6 @@ footer {
     padding: .5rem .5rem .5rem .25rem;
     list-style-type: disc;
     font-weight: 500;
-    font-style: Medium;
     font-size: 1.25rem;
     line-height: 30px;
     letter-spacing: 9.6%;
@@ -50,7 +49,6 @@ footer {
 
 .links p, .contact-info p:nth-child(1) {
     font-weight: 800;
-    font-style: Extra Bold;
     font-size: 1.25rem;
     line-height: 30px;
     letter-spacing: 9.6%;
@@ -58,7 +56,6 @@ footer {
 
 .contact-info p:nth-child(2), span {
     font-weight: 500;
-    font-style: Medium;
     font-size: 1.25rem;
     line-height: 30px;
     letter-spacing: 9.6%;
@@ -67,7 +64,6 @@ footer {
 
 .copyright {
     font-weight: 500;
-    font-style: Medium;
     font-size: 1.25rem;
     line-height: 30px;
     letter-spacing: 9%;

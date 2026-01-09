@@ -10,7 +10,6 @@
 
 .about-info-section h2 {
     font-weight: 700;
-    font-style: Bold;
     font-size: 32px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -31,7 +30,6 @@
 
 .about-info-container p {
     font-weight: 500;
-    font-style: Medium;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 9.6%;
@@ -45,7 +43,6 @@ blockquote {
     border: 2px solid rgba(0, 0, 0, 0.1);
     max-width: 640px;
     font-weight: 500;
-    font-style: Medium;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -100,7 +97,6 @@ blockquote::after {
 
     .about-info-container p {
         font-weight: 500;
-        font-style: Medium;
         font-size: 20px;
         line-height: 30px;
         letter-spacing: 9.6%;
@@ -109,7 +105,6 @@ blockquote::after {
 
     .about-info-section h2 {
         font-weight: 700;
-        font-style: Bold;
         font-size: 60px;
         line-height: 100%;
         letter-spacing: 0%;

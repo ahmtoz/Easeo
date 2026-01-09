@@ -7,7 +7,6 @@
 
 .values-section h2 {
     font-weight: 600;
-    font-style: Semi Bold;
     font-size: 60px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -17,7 +16,6 @@
     text-align: center;
     margin-top: 5rem;
     font-weight: 600;
-    font-style: Semi Bold;
     font-size: 60px;
     line-height: 152%;
     letter-spacing: 0%;
@@ -58,7 +56,6 @@
 
 .values-list li h3 {
     font-weight: 800;
-    font-style: Extra Bold;
     font-size: 28px;
     line-height: 42px;
     letter-spacing: 6.86%;
@@ -67,7 +64,6 @@
 
 .values-list li p {
     font-weight: 500;
-    font-style: Medium;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 9.6%;

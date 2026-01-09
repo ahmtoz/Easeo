@@ -13,7 +13,6 @@ section {
 
 .features-container h2 {
     font-weight: 600;
-    font-style: Semi Bold;
     line-height: 100%;
     letter-spacing: 0%;
     font-size: 3.75rem;
@@ -32,6 +31,7 @@ section {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: .75rem;
     min-width: 12rem;
     max-width: 19rem;
@@ -119,7 +119,6 @@ section {
 
 .features-items-container h5 {
     font-weight: 700;
-    font-style: Bold;
     line-height: 30px;
     letter-spacing: 9.6%;
     font-size: 1.25rem;
@@ -128,7 +127,6 @@ section {
 
 .features-items-container p {
     font-weight: 500;
-    font-style: Medium;
     line-height: 30px;
     letter-spacing: 9.6%;
     font-size: 1.25rem;
@@ -136,12 +134,20 @@ section {
 }
 
 .features-items-container button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 9.6%;
     padding-inline: .75rem;
-    padding-block: .5rem;
     border: 1px solid black;
     border-radius: .5rem;
-    background-color: #FFDD50;
+    background-color: rgba(255, 221, 80, 1);
     color: #333;
+    transition: background-color .2s ease;
+}
+
+.features-items-container button:hover {
+    background-color: rgba(255, 240, 144, 1);
 }
 
 @media screen and (max-width: 768px){

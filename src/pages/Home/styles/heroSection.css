@@ -46,13 +46,12 @@
     margin-top: 1rem;
 }
 
-.get-started, .video {
+.get-started-btn, .video-btn {
     display: inline-flex;
     align-items: center;
     gap: 1rem;
     font-size: 1.25rem;
     font-weight: 600;
-    font-style: Semi Bold;
     line-height: 30px;
     letter-spacing: 9.6%;
     cursor: pointer;
@@ -60,25 +59,30 @@
     padding: 0.75rem 1.25rem;
     border-radius: 0.5rem;
     border: 2px solid #000;
+    transition: background-color 0.2s ease;
 }
 
-.get-started img {
+.get-started-btn img {
     width: 1rem;
     height: 1rem;
 }
 
-.get-started:hover, .video:hover {
-    opacity: 0.9;
-}
-
-.get-started {
-    background-color: #FFDD50;
+.get-started-btn {
+    background-color: rgba(255, 221, 80, 1);
     color: #000;
 }
 
-.video {
-    background-color: #FAFAFA;
+.get-started-btn:hover {
+    background-color: rgba(255, 240, 144, 1);
+}
+
+.video-btn {
+    background-color: rgba(250, 250, 250, 1);
     color: #000;
+}
+
+.video-btn:hover {
+    background-color: rgba(255, 252, 231, 1);
 }
 
 .hero-image {
@@ -130,7 +134,7 @@
         width: auto;
     }
 
-    .get-started, .video {
+    .get-started-btn, .video-btn {
         width: auto;
         padding: .5rem .5rem;
         font-size: 1rem;
@@ -191,7 +195,7 @@
         margin-top: 2rem;
     }
 
-    .get-started, .video {
+    .get-started-btn, .video-btn {
         font-size: 1rem;
         line-height: 1.5;
         font-weight: 600;
@@ -200,7 +204,7 @@
         border: 2px solid #000;
     }
 
-    .get-started {
+    .get-started-btn {
         background-color: #FFDD50;
         color: #000;
     }
@@ -277,7 +281,7 @@
         line-height: 1.6;
     }
 
-    .get-started, .video {
+    .get-started-btn, .video-btn {
         font-size: 1.125rem;
         padding: 1rem .875rem;
     }
@@ -311,7 +315,7 @@
         line-height: 30px;
     }
 
-    .get-started, .video {
+    .get-started-btn, .video-btn {
         font-size: 1.25rem;
         padding: 1.25rem 1rem;
     }

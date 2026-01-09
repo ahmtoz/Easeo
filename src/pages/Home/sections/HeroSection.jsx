@@ -16,11 +16,11 @@ function HeroSection() {
                     <p>Easeo provides add-ons for a personalized experience. Overcomes color blindness, dyslexia, ADHD with smart, seamless integration.</p>
                     <div className="cta-buttons">
                         <button 
-                        className="get-started"
+                        className="get-started-btn"
                         onClick={() => window.open("https://github.com/ahmtoz/Easeo", "_blank")}
                         >Get Started Free <img src={cta1} alt="CTA1" /></button>
                         <button 
-                        className="video"
+                        className="video-btn"
                         onClick={() => {
                             document
                             .getElementById("video-section")
