@@ -30,10 +30,11 @@
 
 .about-info-container p {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 24px;
     letter-spacing: 9.6%;
     color: rgba(0, 0, 0, 1);
+    text-align: center;
 }
 
 blockquote {
@@ -79,13 +80,19 @@ blockquote::after {
     }
 
     .about-info-container p {
-        font-size: 16px;
-        line-height: 28px;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 30px;
+        letter-spacing: 9.6%;
+        text-align: center;
+        color: #333;
     }
 
     .about-info-section h2 {
         font-size: 40px;
         line-height: 100%;
+        font-weight: 500;
+        color: #333;
     }
 }
 
@@ -97,10 +104,10 @@ blockquote::after {
 
     .about-info-container p {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 30px;
         letter-spacing: 9.6%;
-        color: rgba(0, 0, 0, 1);
+        color: #333;
     }
 
     .about-info-section h2 {
