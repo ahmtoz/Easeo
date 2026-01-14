@@ -61,7 +61,6 @@ footer {
     letter-spacing: 9.6%;
 }
 
-
 .copyright {
     font-weight: 500;
     font-size: 1.25rem;
@@ -101,6 +100,12 @@ footer {
     height: 22px;
 }
 
+@media screen and (max-width: 1024px) {
+    footer {
+        padding: 2rem 3rem 1rem 3rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     footer {
         padding: 2rem 1.5rem 1rem 1.5rem;
@@ -120,6 +125,40 @@ footer {
     .footer-container .links {
         width: 50%;
     }
+
+    .footer-container ul li {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .links p {
+        margin-top: 1.25rem;
+    }
+
+    .contact-info p:nth-child(1) {
+        margin-top: 2.75rem;
+    }
+
+    .links p, .contact-info p:nth-child(1) {
+        font-weight: 800;
+        font-size: 1rem;
+        line-height: 30px;
+        letter-spacing: 9.6%;
+    }
+
+    .contact-info p:nth-child(2), span {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 30px;
+        letter-spacing: 9.6%;
+    }
+
+    .copyright {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 30px;
+    }
 }
 
 
@@ -129,6 +168,6 @@ footer {
     }
     .mobile-wrapper {
         flex-direction: column;
-        gap: 2rem;
+        gap: 0;
     }
 }

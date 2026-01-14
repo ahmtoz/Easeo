@@ -6,7 +6,7 @@ import Feat3 from '../../../assets/images/feat3.png';
 
 function FeaturesSection() {
   return (
-    <section>
+    <section id="features-section">
         <div className="features-container">
             <div className="features-header">
                 <h2>Look at our extensions</h2>
@@ -17,7 +17,10 @@ function FeaturesSection() {
                   altText="feature section image 1"
                   heading="Color Blindness"
                   text="Adjust colors for clear distinction of all webpage elements."
-                btnText="Get Extension"
+                  btnText="Get Extension"
+                  onClick={() => {
+                    window.open("https://chromewebstore.google.com/detail/easeo/pcafeehdhcnmfbbjdgfdenfkianbcbee", "_blank")
+                  }}
                 />
                 <AddOnElement
                   img={Feat2}

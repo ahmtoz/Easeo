@@ -10,7 +10,7 @@ export function Footer() {
         <div className="footer-container">
             <div className="mobile-wrapper">
                 <div className="links">
-                    <a href="#hero">
+                    <a href="#">
                         <img src={FooterLogo} alt="Footer Logo" />
                     </a>
                     <p>Quick Links</p>
@@ -42,7 +42,7 @@ export function Footer() {
                         <div className="footer-icon-container">
                             <img src={EmailIcon} alt="Email Icon" />
                         </div>
-                        <span>easeo.offical@gmail.com</span>
+                        <span><a href="mailto:easeo.offical@gmail.com">easeo.offical@gmail.com</a></span>
                     </div>
                     <div>
                         <div className="footer-icon-container">

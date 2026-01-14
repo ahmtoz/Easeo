@@ -17,7 +17,10 @@ function HeroSection() {
                     <div className="cta-buttons">
                         <button 
                         className="get-started-btn"
-                        onClick={() => window.open("https://github.com/ahmtoz/Easeo", "_blank")}
+                        onClick={() => {
+                            document.querySelector("#features-section")
+                            .scrollIntoView({behavior: "smooth"})
+                        }}
                         >Get Started Free <img src={cta1} alt="CTA1" /></button>
                         <button 
                         className="video-btn"
