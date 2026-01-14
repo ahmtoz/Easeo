@@ -18,7 +18,7 @@ function Navbar () {
         </a>
       </div>
       
-      <div className='hamburger' onClick={toggleMenu}>
+      <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className='bar'></div>
         <div className='bar'></div>
         <div className='bar'></div>
@@ -49,7 +49,7 @@ function Navbar () {
             </NavLink>
           </li>
           <li>
-            <a
+            <a tabIndex="0"
               className="nav-link"
               onClick={() => {
                 document

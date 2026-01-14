@@ -15,7 +15,7 @@ function FeaturesSection() {
                 <AddOnElement
                   img={Feat1}
                   altText="feature section image 1"
-                  heading="Color Blindness"
+                  heading="Colorsense"
                   text="Adjust colors for clear distinction of all webpage elements."
                   btnText="Get Extension"
                   onClick={() => {
@@ -25,14 +25,14 @@ function FeaturesSection() {
                 <AddOnElement
                   img={Feat2}
                   altText="feature section image 2"
-                  heading="Dyslexia"
+                  heading="Readease"
                   text="Reformats text with specialized fonts and spacing for easy read. "
                   btnText="Coming Soon"
                 />
                 <AddOnElement
                   img={Feat3}
                   altText="feature section image 3"
-                  heading="Keyboard Nav"
+                  heading="Keynav"
                   text="Enable full mouse-free website navigation using only keyboard. "
                   btnText="Coming Soon"
                 />
