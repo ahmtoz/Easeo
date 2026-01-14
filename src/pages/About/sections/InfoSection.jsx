@@ -1,5 +1,5 @@
 import "../styles/infoSection.css";
-import AboutImage from "../../../assets/images/about-image.png";
+import AboutImage from "../../../assets/images/about-image.svg";
 
 function InfoSection() {
     return (
