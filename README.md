@@ -19,7 +19,7 @@ The project also includes a **promotional video** to communicate the final produ
 ---
 
 ## ⚙️ Tech Stack
-- **Frontend:** React, TailwindCSS   
+- **Frontend:** React, HTML, CSS   
 - **Extension:** Chrome Manifest v3  
 - **Version Control:** Git + GitHub  
 - **Design Tools:** Figma, Canva  
