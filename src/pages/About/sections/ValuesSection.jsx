@@ -11,22 +11,28 @@ function ValuesSection() {
                 <div className="values-list">
                     <ul>
                         <li>
-                            <img src={ValueOne} alt="Integrity Icon" />
-                            <div className="divider"></div>
-                            <h3>Mission</h3>
-                            <p>We uphold the highest standards of integrity in all of our actions.</p>
+                            <div>
+                                <img src={ValueOne} alt="Integrity Icon" />
+                                <div className="divider"></div>
+                                <h3>Mission</h3>
+                            </div>
+                            <p>We design and develop accessibility-focused tools that are user-friendly, customizable, and research-driven.</p>
                         </li>
                         <li>
-                            <img src={ValueTwo} alt="Innovation Icon" />
-                            <div className="divider"></div>
-                            <h3>Vision</h3>
-                            <p>We foster innovation to create value for our customers.</p>
+                            <div>
+                                <img src={ValueTwo} alt="Innovation Icon" />
+                                <div className="divider"></div>
+                                <h3>Vision</h3>
+                            </div>
+                            <p>We envision a more inclusive digital environment where web content is accessible and adaptable for everyone.</p>
                         </li>
                         <li>
-                            <img src={ValueThree} alt="Teamwork Icon" />
-                            <div className="divider"></div>
-                            <h3>Values</h3>
-                            <p>We work together, across boundaries, to meet the needs of our customers.</p>
+                            <div>
+                                <img src={ValueThree} alt="Teamwork Icon" />
+                                <div className="divider"></div>
+                                <h3>Values</h3>
+                            </div>
+                            <p>We value inclusivity, user-centered design, and adherence to recognized accessibility standards and best practices.</p>
                         </li>
                     </ul>
                 </div>

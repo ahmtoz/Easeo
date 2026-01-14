@@ -37,7 +37,7 @@ export function Footer() {
                 </div>
                 <div className='contact-info'>
                     <p>Contact Us</p>
-                    <p>Have questions or feedbacks? Reached out to us. </p>
+                    <p>Have questions or feedbacks? Reach out to us. </p>
                     <div>
                         <div className="footer-icon-container">
                             <img src={EmailIcon} alt="Email Icon" />

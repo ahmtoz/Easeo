@@ -8,10 +8,10 @@ function InfoSection() {
                 <h2>Who are we?</h2>
                 <div className="about-info-container">
                     <img src={AboutImage} alt="" />
-                    <p>Easeo is an essential browser add-on dedicated to creating a truly inclusive internet experience for everyone. Easeo is an essential browser add-on dedicated to creating a truly inclusive internet experience for everyone. Easeo is an essential browser add-on dedicated to creating a truly inclusive internet experience for everyone.AccesEase is an essential browser add-on dedicated to creating a truly inclusive internet experience for everyone.</p>
+                    <p>Easeo is a browser-based accessibility add-on designed to support inclusive and adaptable web experiences. It provides users with tools that enable web content to be customized according to individual needs, promoting independent, comfortable, and accessible interaction with digital environments. Grounded in recognized accessibility standards, Easeo aims to contribute to a more equitable and user-centered web.</p>
                 </div>
                 <blockquote>
-                    "Our mission is to empower individuals with disabilities by providing them with the tools they need to navigate the digital world with ease and confidence."
+                    "We empower users by enabling web content to adapt to their individual needs through accessible, standards-based design."
                 </blockquote>
             </div>
         </section>
