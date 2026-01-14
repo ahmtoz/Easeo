@@ -1,6 +1,6 @@
 import '../styles/footer.css';
 import { NavLink } from 'react-router-dom';
-import FooterLogo from '../assets/images/footer-logo.png';
+import FooterLogo from '../assets/images/footer-logo.svg';
 import EmailIcon from '../assets/images/footer-mail.png';
 import LocationIcon from '../assets/images/footer-location.png';
 
