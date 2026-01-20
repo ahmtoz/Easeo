@@ -3,7 +3,7 @@
 ## Option 1: Automatic Deployment (Recommended)
 
 1. **Update the base path in `vite.config.js`**:
-   - If your repo is `github.com/username/Easeo`, keep `/Easeo/`
+   - If your repo is `github.com/username/Accextension`, keep `/Accextension/`
    - If your repo is `github.com/username/username.github.io`, change to `/`
 
 2. **Push to GitHub**:
@@ -49,6 +49,6 @@
 4. Clear browser cache and hard refresh (Ctrl+Shift+R)
 
 **To find your correct base path**:
-- If repo URL is: `github.com/username/Easeo` → use `/Easeo/`
+- If repo URL is: `github.com/username/Accextension` → use `/Accextension/`
 - If repo URL is: `github.com/username/username.github.io` → use `/`
 

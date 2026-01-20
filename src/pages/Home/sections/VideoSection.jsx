@@ -4,7 +4,7 @@ function VideoSection() {
   return (
     <section id="video-section">
         <div className="video-section-container">
-            <h2>Explore Easeo</h2>
+            <h2>Explore Accextension</h2>
             <div className="video-container">
                 <iframe
                   src="https://www.youtube.com/embed/aOkLTd7rlNc"

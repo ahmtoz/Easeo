@@ -54,7 +54,7 @@ export function Footer() {
             </div>
         </div>
         <div className="copyright">
-            <p>© 2025 - Easeo - All rights reserved.</p>
+            <p>© 2025 - Accextension - All rights reserved.</p>
         </div>
     </footer>
   );

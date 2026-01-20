@@ -14,7 +14,7 @@ function Navbar () {
     <nav>
       <div className='nav-logo'>
         <a href="#">
-          <img src={Logo} alt="Easeo Logo" />
+          <img src={Logo} alt="Accextension Logo" />
         </a>
       </div>
       

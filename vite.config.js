@@ -8,8 +8,8 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig(({ mode }) => {
-  // Change '/Easeo/' to match your GitHub repository name
-  // If your repo is at github.com/username/Easeo, use '/Easeo/'
+  // Change '/Accextension/' to match your GitHub repository name
+  // If your repo is at github.com/username/Accextension, use '/Accextension/'
   // If it's the main repo (github.com/username/username.github.io), use '/'
   const isExtension = mode === 'extension'
   const isGithub = mode === 'github'
@@ -61,7 +61,7 @@ export default defineConfig(({ mode }) => {
         }
       }
     ],
-    base: isExtension ? './' : '/Easeo/',
+    base: isExtension ? './' : '/Accextension/',
     build: {
       rollupOptions: {
         input: {

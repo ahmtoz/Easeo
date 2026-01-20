@@ -109,7 +109,7 @@ function Popup() {
 
   return (
     <div className="popup-container">
-      <h3>Easeo</h3>
+      <h3>Accextension</h3>
       <div className='popup-options'>
         <div className="option">
           <div className="option-info">
