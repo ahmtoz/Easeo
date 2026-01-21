@@ -42,7 +42,7 @@ export function Footer() {
                         <div className="footer-icon-container">
                             <img src={EmailIcon} alt="Email Icon" />
                         </div>
-                        <span><a href="mailto:easeo.offical@gmail.com">easeo.offical@gmail.com</a></span>
+                        <span><a href="mailto:accextension.offical@gmail.com">accextension.offical@gmail.com</a></span>
                     </div>
                     <div>
                         <div className="footer-icon-container">
